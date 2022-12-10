@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    [data-nextjs-scroll-focus-boundary] {
+        display: contents;
+    }
+}
+
+.top-green:after {
+    content: "";
+    width: 100%;
+    height: 127px;
+    background-color: #00A884;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.chats-container::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.chats-container::-webkit-scrollbar-thumb {
+    background-color: rgb(54 66 72 / 22%);
+}
+
+.chats-container::-webkit-scrollbar-track {
+    background: #FFF;
+}
