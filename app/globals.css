@@ -31,3 +31,22 @@
 .chats-container::-webkit-scrollbar-track {
     background: #FFF;
 }
+
+.chat-container::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.chat-container::-webkit-scrollbar-thumb {
+    background-color: rgb(54 66 72 / 22%);
+}
+
+.chat-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chat-bg {
+    background-image: url('../public/chat-background.png');
+    background-repeat: repeat;
+    background-color: #eae6df;
+}

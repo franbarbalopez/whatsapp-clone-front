@@ -31,7 +31,7 @@ export default function SearchBar () {
   }
 
   return (
-    <div className='flex flex-row items-center justify-center gap-2 pl-3 pr-2 h-[49px] bg-white border-y border-b-[#F0F2F5]'>
+    <div className='flex flex-row items-center justify-center gap-2 pl-3 pr-2 h-[49px] bg-white border-b-[1px] border-b-[#F0F2F5]'>
       <div className='flex grow flex-row items-center relative'>
         <input
           className='pl-16 grow bg-[#F0F2F5] rounded-lg h-[35px] placeholder:text-sm placeholder:text-[#54656f] focus-visible:outline-0'
